@@ -49,6 +49,7 @@ ToggleGuiBtn.TextScaled = true
 ToggleGuiBtn.Parent = Screen
 ToggleGuiBtn.TextColor3 = Color3.new(100, 255, 100)
 ToggleGuiBtn.TextScaled = true
+ToggleGuiBtn.Draggable = true
 
 ToggleGuiBtn.MouseButton1Click:Connect(function()
   MainFrame.Visible = not MainFrame.Visible
