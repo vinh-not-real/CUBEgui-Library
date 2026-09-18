@@ -1,17 +1,13 @@
 # CUBEUI-Library v0.40
-A UI library for roblox executor
-
-Use Script:
+A UI library for roblox
+use
 ```luau
 local CUBEUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh-not-real/CUBEgui-Library/refs/heads/main/CUBEguiBase.luau"))()
 ```
-# Description 
-this is a open complexion GUI script that everyone can use or mod it, this thing make by 1 people
 
-if you think this is just A.I generate then, is not
 
 # Function
-We just only have 8 function, 3 variable and 2 editable variable
+We just only have 7 function, 3 variable and 1 editable variable
 ```luau
 local CUBEUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh-not-real/CUBEgui-Library/refs/heads/main/CUBEguiBase.luau"))()
 
@@ -29,6 +25,5 @@ CUBEUI:CreateScroll(Parent, Name, Pos, Size, AnchorPoint, AutoList)
 CUBEUI:AddTextLabel(Target, Name, Text, TextSize) -- TextSize must > 10 or the func automatic change TextSize To AutoScaled
 CUBEUI:CreateToggle(Parent, Name, Pos, Size, AnchorPoint, Default, Func)
 CUBEUI:CreateDropdown(Parent, Name, Pos, Size, AnchorPoint, Options, Default, Func)  -- Options had format like table
-
 CUBEUI:CreateToggleTBtn(Parent, Name, Pos, Size, Anchor, TextTrue, TextFalse, Default, Func) -- a toggle btn with text on it
 ```
