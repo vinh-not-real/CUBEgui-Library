@@ -3,7 +3,7 @@ A UI library for roblox executor
 
 Use Script:
 ```luau
-local CUBEUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh404vn/CUBEgui-Library/refs/heads/main/CUBEguiBase.luau"))()
+local CUBEUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh-not-real/CUBEgui-Library/refs/heads/main/CUBEguiBase.luau"))()
 ```
 # Description 
 this is a open complexion GUI script that everyone can use or mod it, this thing make by 1 people
@@ -13,7 +13,7 @@ if you think this is just A.I generate then, is not
 # Function
 We just only have 8 function, 3 variable and 2 editable variable
 ```luau
-local CUBEUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh404vn/CUBEgui-Library/refs/heads/main/CUBEguiBase.luau"))()
+local CUBEUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh-not-real/CUBEgui-Library/refs/heads/main/CUBEguiBase.luau"))()
 
 CUBEUI.MainFrame -- the MainFrame Instance
 CUBEUI.Screen -- the ScreenUI Instance
