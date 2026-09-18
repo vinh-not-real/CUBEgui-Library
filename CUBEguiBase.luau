@@ -7,7 +7,7 @@
       nothings left
 ]]--
 
-local length = 10
+local length = 30
 local t = {}
 for i = 1, length do
     table.insert(t, string.char(math.random(33, 126)))
