@@ -44,8 +44,11 @@ ToggleGuiBtn.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 ToggleGuiBtn.BorderColor3 = Color3.fromRGB(100, 255, 100)
 ToggleGuiBtn.BorderSizePixel = 2
 ToggleGuiBtn.Font = Enum.Font.Code
+ToggleGuiBtn.Text = "Toggle"
 ToggleGuiBtn.TextScaled = true
 ToggleGuiBtn.Parent = Screen
+ToggleGuiBtn.TextColor3 = Color3.new(100, 255, 100)
+ToggleGuiBtn.TextScaled = true
 
 ToggleGuiBtn.MouseButton1Click:Connect(function()
   MainFrame.Visible = not MainFrame.Visible
