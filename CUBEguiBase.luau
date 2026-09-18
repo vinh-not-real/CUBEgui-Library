@@ -305,9 +305,9 @@ function p:CreateDropdown(Parent, Name, Pos, Size, Anchor, Options, Default, Fun
     SelectedText.MouseButton1Click:Connect(function()
         isOpen = not isOpen
         DropdownContainer.Visible = isOpen
+        RefreshDropdown(Options)
     end)
 
-    -- Refresh ban đầu
     RefreshDropdown(Options)
 
     -- Trả về thêm hàm Refresh để dùng sau
