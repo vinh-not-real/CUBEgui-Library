@@ -1,4 +1,4 @@
-# CUBEUI-Library v0.40
+# CUBEUI-Library v0.401
 A UI library for roblox
 use
 ```luau
@@ -24,6 +24,6 @@ CUBEUI:CreateTextBox(Parent, Name, Pos, Size, AnchorPoint, PlaceHolderText, Clea
 CUBEUI:CreateScroll(Parent, Name, Pos, Size, AnchorPoint, AutoList)
 CUBEUI:AddTextLabel(Target, Name, Text, TextSize) -- TextSize must > 10 or the func automatic change TextSize To AutoScaled
 CUBEUI:CreateToggle(Parent, Name, Pos, Size, AnchorPoint, Default, Func)
-CUBEUI:CreateDropdown(Parent, Name, Pos, Size, AnchorPoint, Options, Default, Func)  -- Options had format like table
+CUBEUI:CreateDropdown(Parent, Name, Pos, Size, AnchorPoint, Options, Default, Func, AutoReload)  -- Options had format like table
 CUBEUI:CreateToggleTBtn(Parent, Name, Pos, Size, Anchor, TextTrue, TextFalse, Default, Func) -- a toggle btn with text on it
 ```
