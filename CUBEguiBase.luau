@@ -215,7 +215,7 @@ function p:CreateToggle(Parent, Name, Pos, Size, Anchor, Default, Func)
 end
 
 -- ==================== DROPDOWN ====================
-function p:CreateDropdown(Parent, Name, Pos, Size, Anchor, Options, Default, Func)
+function p:CreateDropdown(Parent, Name, Pos, Size, Anchor, Options, Default, Func, AutoReload)
     local DropdownFrame = Instance.new("Frame")
     DropdownFrame.Name = Name or "Dropdown"
     DropdownFrame.Position = Pos or UDim2.new(0.5, 0, 0, 0)
@@ -264,6 +264,7 @@ function p:CreateDropdown(Parent, Name, Pos, Size, Anchor, Options, Default, Fun
     UiList.Parent = Scroll
 
     local isOpen = false
+    local AutoForReload = AutoReload or true
     local dropdownItems = {}
 
     local function RefreshDropdown(newOptions)
@@ -306,7 +307,9 @@ function p:CreateDropdown(Parent, Name, Pos, Size, Anchor, Options, Default, Fun
     SelectedText.MouseButton1Click:Connect(function()
         isOpen = not isOpen
         DropdownContainer.Visible = isOpen
-        RefreshDropdown(Options)
+        if AutoForReload then
+            RefreshDropdown(Options)
+        end
     end)
 
     RefreshDropdown(Options)
