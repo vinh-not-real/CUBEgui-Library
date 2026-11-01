@@ -1,10 +1,9 @@
 --[[
-      CUBE UI Library v0.40
-      Feel like C00lkid now?
+      CUBE UI Library v0.401
 ]]--
 --[[ ##UPDATE LOG##
-      Add New Func and new editable var
-      nothings left
+      Add an new agrument to CreateDropdown()
+      and fix the version due to my stupid brain
 ]]--
 
 local length = 30
